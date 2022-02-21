@@ -3,6 +3,8 @@
 let elementName = document.getElementById("name");
 let elementLastName = document.getElementById("last-name");
 let elementColor = document.getElementById("my-color");
+let elementPassword = document.getElementById("password-generator");
+
 
 //* CHIEDO ALL'UTENTE DI INSERIRE I DATI
 const userName = prompt("Qual'è il tuo Nome ?", "Salvatore");
@@ -20,3 +22,4 @@ console.log(userColor);
 elementName.innerHTML = userName;
 elementLastName.innerHTML = userLastName;
 elementColor.innerHTML = userColor;
+elementPassword.innerHTML = userName + userLastName + userColor + "21";
